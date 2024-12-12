@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[9,2,3]
+        c=0
+        arr.forEach((v)=>{
+            c+=v;
+        })
+        console.log(c)
+
+
+        let arr1=[1,2,3,4,5]
+        c1=0;
+
+        arr1.forEach((v1)=>{
+           // console.log(v1)
+            c1+=v1/2;
+        })
+        console.log("Average is",c1)
+
+
+       const people= [
+       { name: "John", age: 17 },
+       { name: "Jane", age: 22 },
+       { name: "Jim", age: 15 },
+       { name: "Jack", age: 19 }
+        ];
+
+        let newpeople=people.filter(function(people){
+            return people.age>=18
+        })
+        console.log(newpeople)
+    </script>
+</body>
+</html>
